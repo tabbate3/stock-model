@@ -1,0 +1,8 @@
+# Which stocks and dates to include.
+market: US
+include_delisted: true
+frequency: monthly
+start_date: 1990-01-01  # Moves earlier if the chosen data source supports it.
+security_types:
+  - common_stock
+sample_size: 500  # Phase 2 uses 100-500 stocks, then expands.

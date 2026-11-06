@@ -1,0 +1,37 @@
+# Starter indicators. "since" is an approximate first year, to confirm against the vendor.
+momentum:
+  - {name: return_1m, description: 1-month return, since: 1926}
+  - {name: return_6m, description: 6-month return, since: 1926}
+  - {name: return_12m, description: 12-month return, since: 1926}
+  - {name: distance_200d_avg, description: Price vs 200-day average, since: 1926}
+  - {name: distance_52w_high, description: Price vs 52-week high, since: 1926}
+risk:
+  - {name: volatility_12m, description: 12-month return volatility, since: 1926}
+  - {name: beta_36m, description: 36-month sensitivity to the market, since: 1926}
+  - {name: max_drawdown_12m, description: Largest 12-month drop, since: 1926}
+trading_activity:
+  - {name: dollar_volume, description: Price times shares traded, since: 1926}
+  - {name: turnover, description: Shares traded vs shares outstanding, since: 1926}
+  - {name: relative_volume, description: Volume vs its usual level, since: 1926}
+valuation:
+  - {name: price_earnings, description: Price to trailing earnings, since: 1962}
+  - {name: price_book, description: Price to book value, since: 1962}
+  - {name: price_sales, description: Price to sales, since: 1962}
+  - {name: free_cash_flow_yield, description: Free cash flow vs market value, since: 1962}
+  - {name: dividend_yield, description: Dividends vs price, since: 1926}
+quality:
+  - {name: return_on_equity, description: Earnings vs equity, since: 1962}
+  - {name: gross_margin, description: Gross profit vs sales, since: 1962}
+  - {name: debt_to_equity, description: Debt vs equity, since: 1962}
+  - {name: interest_coverage, description: Operating income vs interest, since: 1962}
+growth:
+  - {name: revenue_growth, description: Year-over-year revenue growth, since: 1962}
+  - {name: earnings_growth, description: Year-over-year earnings growth, since: 1962}
+  - {name: margin_change, description: Change in gross margin, since: 1962}
+forward_looking:
+  - {name: short_interest, description: Shares sold short vs outstanding, since: 1975}
+  - {name: estimate_revisions, description: Change in analyst estimates, since: 1976}
+  - {name: insider_buying, description: Net insider purchases, since: 1986}
+context:
+  - {name: market_cap, description: Company size, since: 1926}
+  - {name: sector_relative_return, description: 12-month return vs sector, since: 1926}

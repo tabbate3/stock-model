@@ -1,0 +1,14 @@
+# Training and test periods. Windows and their outcomes must end before test_start.
+horizons_months: [12, 36, 120]
+window_months:
+  min: 24
+  max: 240
+walk_forward:
+  - name: test_2010s
+    train_start: 1990-01-01
+    test_start: 2010-01-01
+    test_end: 2019-12-31
+  - name: test_2020s
+    train_start: 1990-01-01
+    test_start: 2020-01-01
+    test_end: 2025-12-31
